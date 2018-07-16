@@ -40,6 +40,12 @@ export interface CssClasses {
 
   /* The class or classes that should be added to the expanded to the leaf */
   leaf?: string;
+
+  /* The class or classes that should be added to the value container of the root */
+  root?: string;
+
+  /* The class or classes that should be added to the value container of the children */
+  children?: string;
 }
 
 export interface Templates {
